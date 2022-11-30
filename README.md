@@ -1,0 +1,2 @@
+# seoul-trip
+web project
