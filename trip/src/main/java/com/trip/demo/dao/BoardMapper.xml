@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    
+<mapper namespace="com.trip.demo.dao.BoardMapper">
+
+    <!--  <insert id="insertBoard" parameterType="com.trip.demo.dto.BoardDto">
+        INSERT INTO board (title, id, email, content, password) VALUES 
+        (#{title}, #{id}, #{email}, #{content}, #{pw1})
+    </insert>-->
+    
+     <insert id="insertBoard" parameterType="com.trip.demo.dto.BoardDto">
+        INSERT INTO board (title, id, email, content, nickname, date, password) VALUES (#{title}, #{id}, #{email}, #{content}, #{nickname}, CURRENT_TIMESTAMP, #{password})
+    </insert>
+       
+    <delete id="deleteBoard" parameterType="com.trip.demo.dto.BoardDto">
+    	delete from board where num=#{num} and password=#{password}
+    </delete>
+    
+    <update id="updateBoard" parameterType="com.trip.demo.dto.BoardDto">
+		 <!-- UPDATE board SET num = num -1 where num>#{num} -->	
+		 <![CDATA[ 
+		 SET @COUNT = 0;
+		 UPDATE board SET num = @COUNT:=@COUNT+1;
+		 ]]>
+    </update>
+      
+     <select id="selectBoard" resultType="com.trip.demo.dto.BoardDto">	
+     	 <!-- <![CDATA[ 
+     	SET @rownum = 0;
+	   	select @rownum:=@rownum+1, title, id, nickname, email, date from board]]> -->
+	   	select num,title,id,nickname,email,date from board
+    </select>
+    
+    <select id="selectMain" resultType="com.trip.demo.dto.BoardDto">	
+	   	select num,title,id,nickname,email,date from board order by num desc limit 5
+    </select>
+    
+    <select id="selectBoardIf" resultType="com.trip.demo.dto.BoardDto">	
+       select num, title, id, nickname, email, date from board
+       <if test="searchKey != null">
+	        <if test="searchKey == 'title'.toString()">
+					where title like CONCAT('%', #{searchValue}, '%')
+			</if>
+			<if test="searchKey == 'id'.toString()">
+					where id like CONCAT('%', #{searchValue}, '%')
+			</if>
+			<if test="searchKey == 'email'.toString()">
+					where email like CONCAT('%', #{searchValue}, '%')
+			</if>
+		</if>
+    </select>
+        
+    <select id="selectBoardcon" resultType="com.trip.demo.dto.BoardDto">
+        select title, id, email, content, date, num, password from board where num=#{num}
+    </select>
+    
+     <select id="selectBoardMy" resultType="com.trip.demo.dto.BoardDto">
+        select num, title, id, nickname, email from board where id=#{id} or nickname=#{nickname}
+    </select>
+   
+</mapper>

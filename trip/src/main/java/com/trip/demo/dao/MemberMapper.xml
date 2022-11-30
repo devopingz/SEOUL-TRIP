@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    
+<mapper namespace="com.trip.demo.dao.MemberMapper">
+
+    <insert id="insertMember" parameterType="MemberDto">
+        INSERT INTO member VALUES (#{id}, #{pw1}, #{pw2}, #{name}, #{nickname}, #{birth}, #{gender}, #{email}, #{phone})
+    </insert>
+    
+  	<select id="memberLogin" resultType="com.trip.demo.dto.MemberDto">
+         select * from member where id = #{id} and password = #{pw1} 
+    </select>
+    
+    <update id="updateMember" parameterType="com.trip.demo.dto.MemberDto">
+         update member set password = #{pw1}, password2 = #{pw2}, nickname = #{nickname}, 
+         birth = #{birth},  gender = #{gender}, email = #{email}, phone = #{phone} where id=#{id}
+    </update>
+    
+    <delete id="deleteMember" parameterType="com.trip.demo.dto.MemberDto">
+         delete from member where id = #{id} and password = #{pw1}
+    </delete>
+    
+    <select id="selectOneUser" parameterType="string" resultType="MemberDto">
+        SELECT name,gender,email FROM member WHERE id = #{id}
+    </select>
+    
+    <select id="selectAllUser" resultType="com.trip.demo.dto.MemberDto">
+        SELECT id,name,nickname,birth,gender,email,phone from member
+    </select>
+</mapper>
