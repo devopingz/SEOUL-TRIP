@@ -1,7 +1,7 @@
 # SEOUL TRIP
 #### 웹으로 서울을 탐방하는 프로젝트      
 ###### 진행기간 : 2022.11.01 ~ 2022.11.30
-###### SKILLS/IDE : Java,JSP,HTML,CSS / Spring Framework, MyBatis / MySQL / Eclipse
+###### SKILLS/IDE : Java, JSP, HTML, CSS / Spring Framework, MyBatis / MySQL / Eclipse
 ###### 프로젝트 개발 참여 파트  
 ##### Back-end  
 ###### - 로그인 및 회원가입  
@@ -22,8 +22,6 @@
 ![image](https://user-images.githubusercontent.com/56243414/205893486-ed9d5201-d3c4-43b9-b188-476620d7c5c3.png)
 </br></br>
 ![image](https://user-images.githubusercontent.com/56243414/205893538-d4f4727f-dfe6-4e36-b3ea-6d18df858f57.png)
-</br></br>
-![image](https://user-images.githubusercontent.com/56243414/205893107-6a7f4d46-f5ec-4aac-b844-8a295a6701a1.png)
 </br></br>
 ![image](https://user-images.githubusercontent.com/56243414/205893156-3f8f4b89-8f2b-419e-8cbe-36083e1354a8.png)
 </br></br>
