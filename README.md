@@ -1,5 +1,5 @@
 # SEOUL TRIP
-### 웹으로 서울을 탐방하는 프로젝트      
+### 서울 관광지 소개 웹사이트 구축   
 #### 진행기간 : 2022.11.01 ~ 2022.11.30
 #### SKILLS/IDE : Java, JSP, HTML, CSS / Spring Framework, MyBatis / MySQL / Eclipse
 #### 프로젝트 개발 참여 파트  
