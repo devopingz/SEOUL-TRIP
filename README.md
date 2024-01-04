@@ -37,7 +37,7 @@
 ![image](https://user-images.githubusercontent.com/56243414/205893486-ed9d5201-d3c4-43b9-b188-476620d7c5c3.png)
 </br></br>
 
-## 📌 주요 기능(새로 작성)
+## 📌 주요 기능
 ### ● 회원가입, 로그인
 ![image](https://user-images.githubusercontent.com/56243414/205893538-d4f4727f-dfe6-4e36-b3ea-6d18df858f57.png)
 </br></br>
