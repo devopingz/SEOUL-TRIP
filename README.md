@@ -1,57 +1,52 @@
 # SEOUL TRIP
-서울 관광지 소개 웹 사이트 구축   
+## 성신여대 & 코드프레소 주관 SW-021 웹 개발 트랙 프로젝트<br>
+## 서울 관광지 소개 웹 사이트 구축   
 
 ## 🖥️ 프로젝트 개요
-성신여대 & 코드프레소 주관 SW-021 웹 개발 트랙 프로젝트<br>
-서울시 관광 정보 제공, 여행 후기 공유, 회원목록 공유 기능을 가진 Spring Boot, MySQL ,MyBatis를 이용한 서울 여행 웹 사이트를 개발<br>
-다양한 여행 관련 플랫폼을 사용하면서 추가되었으면 하는 부분들을 생각하며 만든 프로젝트<br>
-서울 각 지역 관광지, 맛집 리스트 및 상세정보 기능 제공<br>
-회원 게시판을 통한 여행 후기 공유<br>
-회원 목록 공유를 통한 여행원 모집<br>
-KAKAO Map API 사용<br>
+### 서울시 관광 정보 제공, 여행 후기 공유, 회원목록 공유 기능을 가진 Spring Boot, MySQL ,MyBatis를 이용한 서울 여행 웹 사이트를 개발<br>
+### 다양한 여행 관련 플랫폼을 사용하면서 추가되었으면 하는 부분들을 생각하며 만든 프로젝트<br>
+### 서울 각 지역 관광지, 맛집 리스트 및 상세정보 기능 제공<br>
+### 회원 게시판을 통한 여행 후기 공유<br>
+### 회원 목록 공유를 통한 여행원 모집<br>
+### KAKAO Map API 사용<br>
 ![image](https://github.com/devopingz/seoul-trip/assets/56243414/0ab2427f-2eab-4fb6-b4a7-f4e79cb0b6df)
 <br>
 
 ## 🕰️ 개발 기간
-* 2022.11.01일 - 2022.11.30일 (Spring Boot 풀스택 개발)
+### 2022.11.01일 - 2022.11.30일 (Spring Boot 풀스택 개발)
 
 ### 🧑‍🤝‍🧑 맴버구성
- - 조홍민
-   #### Back-end  
+### 조홍민
+#### - Back-end  
 ##### - 로그인 및 회원가입  
 ##### - 회원정보 수정,탈퇴  
 ##### - 게시판 기능 구현(작성,조회,상세정보,검색,삭제)  
 ##### - 회원목록 조회  
 ##### - 데이터베이스 쿼리작성  
-#### Front-end  
+#### - Front-end  
 ##### - 메인페이지 kakao map api 연동  
 ##### - 로그인,회원가입,회원정보 디자인  
 ##### - 관광지 디자인 및 상세정보 추가
- - 박기범
-#### Front-end  
+### 박기범
+#### - Front-end  
 ##### -  메인페이지 디자인  
 ##### - 관광지 디자인 및 상세정보 추가  
 ##### - 기타정보 디자인
 ##### - 광화문, 남산, 홍대 등
 
 ### ⚙️ 개발 환경
-- **Framework** : Spring Boot
-- **Database** : MySQL
-- **Cloud** : AWS
-- **Tool** : Eclipse, MySQL WorkBench
-- **Programming Language** : Java, HTML, CSS, Javascript
-- **ORM** : MyBatis
-
+#### - **Framework** : Spring Boot
+#### - **Database** : MySQL
+#### - **Cloud** : AWS
+#### - **Tool** : Eclipse, MySQL WorkBench
+#### - **Programming Language** : Java, HTML, CSS, Javascript
+#### - **ORM** : MyBatis
 - ![image](https://user-images.githubusercontent.com/56243414/204865800-bc4413bb-9ac4-45db-970d-a41ff93183c6.png)
 </br></br>
 ![image](https://user-images.githubusercontent.com/56243414/205893486-ed9d5201-d3c4-43b9-b188-476620d7c5c3.png)
 </br></br>
 
 ## 📌 주요 기능(새로 작성)
-![기능정의서](https://github.com/devopingz/We-Higher/assets/56243414/941089fe-1099-4621-8c7b-11c31431f85c)
-![공백](https://github.com/devopingz/We-Higher/assets/56243414/c591b3d6-1cd4-4879-8eec-08692f2b7792)
-![기능정의서2](https://github.com/devopingz/We-Higher/assets/56243414/8ff0b146-7ce4-4abd-b6ec-5aae11373b51)
-
 #### 회원가입, 로그인
 ![image](https://user-images.githubusercontent.com/56243414/205893538-d4f4727f-dfe6-4e36-b3ea-6d18df858f57.png)
 </br></br>
