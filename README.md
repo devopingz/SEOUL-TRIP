@@ -1,6 +1,7 @@
 # SEOUL TRIP
 #### 성신여대 & 코드프레소 주관 SW-021 웹 개발 트랙 프로젝트<br>
 #### 서울 관광지 소개 웹 사이트 구축   
+---
 
 ## 🖥️ 프로젝트 개요
 #### 서울시 관광 정보 제공, 여행 후기 공유, 회원목록 공유 기능을 가진 Spring Boot, MySQL, MyBatis를 이용한 서울 여행 웹 사이트를 개발<br>
@@ -11,9 +12,11 @@
 #### KAKAO Map API 사용<br>
 ![image](https://github.com/devopingz/seoul-trip/assets/56243414/0ab2427f-2eab-4fb6-b4a7-f4e79cb0b6df)
 <br>
+---
 
 ## 🕰️ 개발 기간
 #### 2022.11.01 - 2022.11.30
+---
 
 ## 🧑‍🤝‍🧑 맴버구성
 ### ● 조홍민
@@ -24,6 +27,7 @@
 ### ● 박기범
 #### ○ 프론트엔드
 ##### - 메인페이지 디자인 / 관광지 디자인 및 상세정보 추가 / 기타정보 디자인 / 광화문, 남산, 홍대 등
+---
 
 ## ⚙️ 개발 환경
 #### - **Framework** : Spring Boot
@@ -36,6 +40,7 @@
 </br></br>
 ![image](https://user-images.githubusercontent.com/56243414/205893486-ed9d5201-d3c4-43b9-b188-476620d7c5c3.png)
 </br></br>
+---
 
 ## 📌 주요 기능
 ### ● 회원가입, 로그인
@@ -62,3 +67,4 @@
 ### ● 성수, 전통시장 소개
 ![image](https://user-images.githubusercontent.com/56243414/205893305-b8d7e87d-155d-4224-806b-23981748dc14.png)
 </br></br>
+---
